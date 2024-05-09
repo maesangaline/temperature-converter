@@ -1,4 +1,4 @@
-# Temperature Converter
+# Temperature converter
 
 This is a simple temperature converter web application that allows users to convert temperatures between Fahrenheit and Celsius. The application limits the number of digits after the decimal point to 2.
 
@@ -8,7 +8,7 @@ This is a simple temperature converter web application that allows users to conv
 2. Enter a temperature value in either the Fahrenheit or Celsius input field.
 3. The corresponding temperature in the other unit will be automatically calculated and displayed.
 
-## Code Overview
+## Code overview
 
 ### Constants
 - `DIGITS_AFTER_DECIMAL_POINT`: Defines the number of digits to display after the decimal point in the converted temperature.
