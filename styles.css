@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans';
+  margin: auto;
+  background: #FFFFFF;
+}
+
+h1 {
+  font family: 'Open Sans';
+  font-weight: 700;
+	font-size: 2.5rem;
+	text-align: center;
+  margin-top: -3rem;
+}
+ 
+p {
+  font-family: 'Copperplate';
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: -2rem;
+}
+
+#container {
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+  margin: 5rem;
+  min-height: 100%;
+}
+
+#fahrenheit {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	background-color: #ededed;
+	height: 3em;
+	width: 30rem;
+	margin: 0 5px 0 15px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 1px 1px #888888;
+	outline: none;
+  padding: 0 10px;
+}
+
+#fahrenheit:hover {
+	font-weight: 700;
+	cursor: pointer;
+	background-color: #FFBA85;
+	color: #222831;
+}
+
+#celsius {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	background-color: #ededed;
+	height: 3em;
+	width: 30rem;
+	margin: 0 5px 0 15px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 1px 1px #888888;
+	outline: none;
+  padding: 0 10px;
+}
+
+#celsius:hover {
+	font-weight: 700;
+	cursor: pointer;
+	background-color: #99BAD6;
+	color: #222831;
+}
